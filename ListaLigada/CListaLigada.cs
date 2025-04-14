@@ -188,7 +188,7 @@ namespace ListaLigada
             set
             {
                 trabajo = ObtenerPorIndice(pIndice);
-                if (trabajo == null)
+                if (trabajo != null)
                 {
                     trabajo.Dato = value;
                 }

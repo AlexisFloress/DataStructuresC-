@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListaLigada
 {
-    internal class CNodo
+    public class CNodo
     {
         //Informacion del nodo
         private int dato;
@@ -15,7 +15,7 @@ namespace ListaLigada
         private CNodo siguiente = null;
 
         public int Dato { get => dato; set => dato = value; }
-        internal CNodo Siguiente { get => siguiente; set => siguiente = value; }
+        public CNodo Siguiente { get => siguiente; set => siguiente = value; }
 
         public override string ToString()
         {
