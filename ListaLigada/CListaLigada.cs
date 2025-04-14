@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ListaLigada
 {
-    internal class CListaLigada
+    public class CListaLigada
     {
         //Indica el incio de la lista Ligada
         private CNodo ancla;

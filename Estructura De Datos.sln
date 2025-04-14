@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Estructura De Datos\Recursion.csproj", "{3050119E-72DA-4DAA-ACE2-BBF72E3C2698}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLigada", "ListaLigada\ListaLigada.csproj", "{7528A644-3EDC-4AB3-B573-4B7C04740ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurbleSort", "BurbleSort\BurbleSort.csproj", "{C0B2D96A-4D1C-4E27-97A3-CEAD4811B644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7528A644-3EDC-4AB3-B573-4B7C04740ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7528A644-3EDC-4AB3-B573-4B7C04740ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7528A644-3EDC-4AB3-B573-4B7C04740ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B2D96A-4D1C-4E27-97A3-CEAD4811B644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B2D96A-4D1C-4E27-97A3-CEAD4811B644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B2D96A-4D1C-4E27-97A3-CEAD4811B644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B2D96A-4D1C-4E27-97A3-CEAD4811B644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
