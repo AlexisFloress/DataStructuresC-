@@ -81,7 +81,7 @@ internal class Program
         CListaLigada derecha = new CListaLigada();
 
         //mitad izquierda
-        for(n=0; n<mitad; n++)
+        for(n=0; n <mitad; n++)
         {
             izquierda.Adicionar(pLista[n]);
         }

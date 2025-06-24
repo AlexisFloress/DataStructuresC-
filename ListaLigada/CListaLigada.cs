@@ -178,6 +178,7 @@ namespace ListaLigada
             return null;
         }
 
+        //Indexer
         public int this[int pIndice]
         {
             get
@@ -203,7 +204,7 @@ namespace ListaLigada
             while(trabajo.Siguiente != null)
             {
                 n++;
-                trabajo= trabajo.Siguiente;
+                trabajo = trabajo.Siguiente;
             }
             return n;
         }

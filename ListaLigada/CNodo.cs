@@ -18,6 +18,8 @@ namespace ListaLigada
         public CNodo Siguiente { get => siguiente; set => siguiente = value; }
 
         public override string ToString()
+
+
         {
             return string.Format("[{0}]", dato);
         }

@@ -20,7 +20,6 @@ internal class Program
         miLista.Adicionar(29);
 
         miLista.Transversa();
-
         int m = 0;
         int n = 0;
         int iteraciones = 0;
