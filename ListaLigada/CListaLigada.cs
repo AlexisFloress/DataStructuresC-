@@ -166,7 +166,7 @@ namespace ListaLigada
             int n = -1;
             trabajo = ancla;
 
-            while (n <= pIndice)
+            while (trabajo.Siguiente != null)
             {
                 n++;
                 trabajo = trabajo.Siguiente;
@@ -175,10 +175,11 @@ namespace ListaLigada
                     return trabajo;
                 }
             }
-            return null;
+            return trabajo;
         }
 
         //Indexer
+        
         public int this[int pIndice]
         {
             get
@@ -195,6 +196,8 @@ namespace ListaLigada
                 }
             }
         }
+        
+        
         public int cantidad()
         {
             int n = 0;

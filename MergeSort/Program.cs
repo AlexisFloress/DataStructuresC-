@@ -16,15 +16,15 @@ internal class Program
 
 
         //CListaLigada l = new CListaLigada();
-        //l.Adicionar(2);
-        //l.Adicionar(9);
-        //l.Adicionar(5);
+        //l.Adicionar(2);//
+        //l.Adicionar(5);//
         //l.Adicionar(6);
+        //l.Adicionar(9);
 
         //CListaLigada r = new CListaLigada();
-        //r.Adicionar(1);
-        //r.Adicionar(3);
-        //r.Adicionar(7);
+        //r.Adicionar(1);//
+        //r.Adicionar(3);//
+        //r.Adicionar(7);//
         //r.Adicionar(11);
 
         //CListaLigada merged = Merge(l, r);
@@ -61,6 +61,19 @@ internal class Program
                 indiceD++;
             }
         }
+        //Si sobran elementos en la lista izquierda
+        while (indiceI > cantI)
+        {
+            unida.Adicionar(listaIzq[indiceI]);
+            indiceI++;
+        }
+
+        //Si sobran elementos en la lista derecha
+        while (indiceD > cantI)
+        {
+            unida.Adicionar(listaIzq[indiceD]);
+            indiceD++;
+        }
         return unida;
     }
     private static CListaLigada MergeSort(CListaLigada pLista)
@@ -85,10 +98,12 @@ internal class Program
         {
             izquierda.Adicionar(pLista[n]);
         }
+        //mitad derecha
         for(n = mitad; n < cantidad; n++)
         {
             derecha.Adicionar(pLista[n]);
         }
+
 
         //Caso inductivo
         CListaLigada tempI = MergeSort(izquierda);
